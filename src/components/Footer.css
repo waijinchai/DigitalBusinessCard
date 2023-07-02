@@ -1,0 +1,12 @@
+footer {
+    background-color: #161619;
+}
+
+.footer--socmed {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}

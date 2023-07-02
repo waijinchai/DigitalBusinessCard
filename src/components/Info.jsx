@@ -1,3 +1,4 @@
+import "./Info.css"
 import photo from "../assets/photo.jpg"
 import email from "../assets/mail.png"
 import linkedin from "../assets/linkedin.png"

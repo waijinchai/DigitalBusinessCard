@@ -1,4 +1,4 @@
-:root {
+/* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -66,4 +66,108 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+} */
+
+* {
+  box-sizing: border-box;
 }
+
+:root {
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #23252C;
+  padding: 44px 117px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 317px;
+  height: 780px;
+  background-color: #1A1B21;
+  border-radius: 15px;
+}
+
+/* -------- Info -------- */
+.info--photo {
+  width: 317px;
+  height: 317px;
+  border-radius: 15px 15px 0 0;
+}
+
+.info--name, .info--position, .info--website {
+  text-align: center;
+}
+
+.info--name {
+  margin: 21px 0 0 0;
+  color: white;
+  font-size: 25px;
+}
+
+.info--position {
+  color: #F3BF99;
+  font-size: 13px;
+  margin-top: 6px;
+}
+
+.info--website {
+  margin-top: 9px;
+}
+
+.info--website > a:link, .info--website > a:visited {
+  color: #F5F5F5;
+  text-decoration: none;
+  font-size: 10px;
+}
+
+.socmed {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 17px;
+}
+
+.email, .linkedin {
+  flex: 0 1 auto;
+  width: 115px;
+  height: 34px;
+  margin-top: 15px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.email > a, .linkedin > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.email {
+  background-color: #D1D5DB;
+  color: #374151;
+}
+
+.email > a:link, .email > a:visited {
+  text-decoration: none;
+  color: #374151;
+}
+
+.linkedin {
+  background-color: #5093E2;
+}
+
+.linkedin > a:link, .linkedin > a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+

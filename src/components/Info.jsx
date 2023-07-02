@@ -5,7 +5,7 @@ import linkedin from "../assets/linkedin.png"
 
 function Info() {
     return (
-        <div>
+        <div className="info-container">
             <img src={ photo } className="info--photo" />
             <div className="info">
                 <h1 className="info--name">Chai Wai Jin</h1>

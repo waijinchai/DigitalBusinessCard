@@ -1,7 +1,11 @@
+.info-container {
+  margin-top: 0;
+}
+
 .info--photo {
     width: 317px;
     height: 317px;
-    border-radius: 15px 15px 0 0;
+    border-radius: 10px 10px 0 0;
   }
   
   .info--name, .info--position, .info--website {

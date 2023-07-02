@@ -1,6 +1,12 @@
+import "./About.css"
+
 function About() {
     return (
-        <h1>About Component</h1>
+        <div>
+            <h2>About</h2>
+            <p>Second year Computer Science student at Monash University Malaysia |
+               School of Information Technology Sub-Committee - Secretary </p>
+        </div>
     )
 }
 

@@ -45,8 +45,14 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: center;
   width: 317px;
   height: 780px;
   background-color: #1A1B21;
-  border-radius: 15px;
+  border-radius: 10px;
+  margin: 0;
+}
+
+.about-interest-container {
+  margin: 0;
 }

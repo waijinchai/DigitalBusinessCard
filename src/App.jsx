@@ -8,8 +8,10 @@ function App() {
   return (
     <div className="card">
       <Info />
-      <About />
-      <Inetrest />
+      <div className="about-interest-container">
+        <About />
+        <Inetrest />
+      </div>
       <Footer />
     </div>
   )

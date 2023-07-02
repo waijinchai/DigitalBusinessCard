@@ -1,6 +1,11 @@
+import "./Interest.css"
+
 function Interest() {
     return (
-        <h1>Interest Component</h1>
+        <div>
+            <h2>Interest</h2>
+            <p>Basketball. Avid Tea Drinker. Gym go-er. Loves Food.</p>
+        </div>
     )
 }
 

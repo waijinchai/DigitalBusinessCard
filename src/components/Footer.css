@@ -1,5 +1,8 @@
 footer {
     background-color: #161619;
+    border-radius: 0 0 10px 10px;
+    width: 317px;
+    height: 64px;
 }
 
 .footer--socmed {
